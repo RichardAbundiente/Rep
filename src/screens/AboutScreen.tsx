@@ -18,10 +18,15 @@ export default function AboutScreen() {
           <Card style={styles.card}>
             <Text style={styles.heading}>About the School</Text>
             <Text style={styles.paragraph}>
-              [Placeholder] Saint Michael's College of Iligan Inc. (SMCII) is
+              Saint Michael's College of Iligan Inc. (SMCII) is
               committed to forming graduates who are competent, values-driven,
-              and ready to serve their communities. Replace this text with the
-              school's actual mission, vision, and history.
+              and ready to serve their communities. <br />School Vision: <br /> We, the members of St. Michael’s College of Iligan, Inc. community, animated by the Ignacian spirituality, witness to the compassionate love of Jesus Christ. We create new horizons with hope of nurturing and empowering individuals into becoming globally competent, humble and responsible citizens toward inner and social transformation for the common good. School Mission: We commit ourselves to:
+
+     <br /> grow in discernment and interior freedom to be prophets of faith, hope, and love in today’s world; <br />
+     continuously form Ignacian-Marian leaders who witness to faith, excellence and service in varied socio-cultural settings; <br />
+     constantly pursue innovative programs, approaches and educational strategies to develop global professionals; <br />
+     build up resources and capabilities and create new paradigms to respond to contemporary issues towards enhancement of quality life, and; <br />
+     expand our educational thrust for the poor. <br /> 
             </Text>
           </Card>
         </FadeInView>
@@ -30,7 +35,7 @@ export default function AboutScreen() {
           <Card style={styles.card}>
             <Text style={styles.heading}>About this App</Text>
             <Text style={styles.paragraph}>
-              [Placeholder] The Student Portal is a mobile companion app built
+              The Student Portal is a mobile companion app built
               with React Native. It demonstrates Flexbox layouts, the
               StyleSheet API, and Stack Navigation between multiple screens —
               Home, About, Contact, and Profile.

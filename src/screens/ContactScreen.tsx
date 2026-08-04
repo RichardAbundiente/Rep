@@ -18,25 +18,25 @@ export default function ContactScreen() {
     {
       icon: 'A',
       label: 'Address',
-      value: 'Poblacion, Bacolod, Lanao del Norte, Philippines',
+      value: '74, Manuel L. Quezon Ave, Iligan City, Lanao del Norte, Philippines',
     },
     {
       icon: 'P',
       label: 'Phone',
-      value: '(+63) 992-649-7545',
-      action: () => Linking.openURL('tel:+63926497545'),
+      value: '(063) 221-2810',
+      action: () => Linking.openURL('tel:0632212801'),
     },
     {
       icon: 'E',
       label: 'Email',
-      value: 'richardallengerona.abundiente@my.smciligan.edu.ph',
-      action: () => Linking.openURL('mailto:richardallengerona.abundiente@my.smciligan.edu.ph'),
+      value: 'smciligan.edu.ph',
+      action: () => Linking.openURL('mailto:smciligan.edu.ph'),
     },
     {
       icon: 'W',
       label: 'Website',
-      value: 'My Github',
-      action: () => Linking.openURL('https://github.com/RichardAbundiente/Rep.git'),
+      value: 'https://smciligan.edu.ph/',
+      action: () => Linking.openURL('https://smciligan.edu.ph/'),
     },
   ];
 

@@ -8,7 +8,7 @@ import FadeInView from '../components/FadeInView';
 import { colors, spacing, radius } from '../theme/theme';
 
 const QUICK_LINKS: { key: string; label: string; icon: string; desc: string }[] = [
-  { key: 'About', label: 'About', icon: 'ℹ', desc: 'Learn about the app & school' },
+  { key: 'About', label: 'About', icon: 'I', desc: 'Learn about the app & school' },
   { key: 'Contact', label: 'Contact', icon: 'C', desc: 'Reach the school offices' },
   { key: 'Profile', label: 'Profile', icon: 'P', desc: 'View your student profile' },
 ];
