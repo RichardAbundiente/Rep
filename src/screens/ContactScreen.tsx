@@ -16,27 +16,27 @@ type ContactItem = {
 export default function ContactScreen() {
   const items: ContactItem[] = [
     {
-      icon: '📍',
+      icon: 'A',
       label: 'Address',
-      value: '[Placeholder] Iligan City, Lanao del Norte, Philippines',
+      value: 'Poblacion, Bacolod, Lanao del Norte, Philippines',
     },
     {
-      icon: '📞',
+      icon: 'P',
       label: 'Phone',
-      value: '[Placeholder] (063) 000-0000',
-      action: () => Linking.openURL('tel:0630000000'),
+      value: '(+63) 992-649-7545',
+      action: () => Linking.openURL('tel:+63926497545'),
     },
     {
-      icon: '✉',
+      icon: 'E',
       label: 'Email',
-      value: '[Placeholder] info@smcii.edu.ph',
-      action: () => Linking.openURL('mailto:info@smcii.edu.ph'),
+      value: 'richardallengerona.abundiente@my.smciligan.edu.ph',
+      action: () => Linking.openURL('mailto:richardallengerona.abundiente@my.smciligan.edu.ph'),
     },
     {
-      icon: '🌐',
+      icon: 'W',
       label: 'Website',
-      value: '[Placeholder] www.smcii.edu.ph',
-      action: () => Linking.openURL('https://www.smcii.edu.ph'),
+      value: 'My Github',
+      action: () => Linking.openURL('https://github.com/RichardAbundiente/Rep.git'),
     },
   ];
 

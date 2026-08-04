@@ -4,10 +4,10 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 import { colors, spacing, radius } from '../theme/theme';
 
 const TABS: { key: string; label: string; icon: string }[] = [
-  { key: 'Home', label: 'Home', icon: '⌂' },
-  { key: 'About', label: 'About', icon: 'ℹ' },
-  { key: 'Contact', label: 'Contact', icon: '✉' },
-  { key: 'Profile', label: 'Profile', icon: '☺' },
+  { key: 'Home', label: 'Home', icon: 'H' },
+  { key: 'About', label: 'About', icon: 'A' },
+  { key: 'Contact', label: 'Contact', icon: 'C' },
+  { key: 'Profile', label: 'Profile', icon: 'P' },
 ];
 
 export default function BottomNavBar() {

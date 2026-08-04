@@ -7,15 +7,14 @@ import Card from '../components/Card';
 import FadeInView from '../components/FadeInView';
 import { colors, spacing, radius } from '../theme/theme';
 
-// Edit these placeholder values with your real details.
 const STUDENT = {
-  name: 'Juan Dela Cruz',
+  name: 'Richard Allen G. Abundiente',
   course: 'BS Information Technology',
   yearBlock: '4th Year - Block B',
-  studentId: '00-0000-000',
+  studentId: 'C23-1040',
   school: "Saint Michael's College of Iligan Inc.",
-  email: 'juan.delacruz@example.com',
-  skills: ['JavaScript', 'Python', 'C/C++', 'Embedded Systems', 'Web Development'],
+  email: 'richardallengerona.abundiente@my.smciligan.edu.ph',
+  skills: ['JavaScript', 'Python', 'C/C++', 'Embedded Systems', 'Web Development', 'Digital and Traditional Art'],
 };
 
 export default function ProfileScreen() {

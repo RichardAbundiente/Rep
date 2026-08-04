@@ -9,8 +9,8 @@ import { colors, spacing, radius } from '../theme/theme';
 
 const QUICK_LINKS: { key: string; label: string; icon: string; desc: string }[] = [
   { key: 'About', label: 'About', icon: 'ℹ', desc: 'Learn about the app & school' },
-  { key: 'Contact', label: 'Contact', icon: '✉', desc: 'Reach the school offices' },
-  { key: 'Profile', label: 'Profile', icon: '☺', desc: 'View your student profile' },
+  { key: 'Contact', label: 'Contact', icon: 'C', desc: 'Reach the school offices' },
+  { key: 'Profile', label: 'Profile', icon: 'P', desc: 'View your student profile' },
 ];
 
 export default function HomeScreen() {
@@ -28,7 +28,7 @@ export default function HomeScreen() {
         showsVerticalScrollIndicator={false}>
         <FadeInView delay={80}>
           <Card style={styles.welcomeCard}>
-            <Text style={styles.welcomeTitle}>Welcome back 👋</Text>
+            <Text style={styles.welcomeTitle}>Welcome back</Text>
             <Text style={styles.welcomeText}>
               Use this portal to view your profile, learn more about SMCII, and get
               in touch with the school whenever you need to.
